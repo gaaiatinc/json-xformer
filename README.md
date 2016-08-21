@@ -24,7 +24,7 @@ This method is used to register a user-defined custom formatting function (custo
   function customFormatterExample(sourceLocale, targetLocale, sourcePtr, targetPtr, sourceElement) {...}
 ```
 
-The custom formatter will be invoked by the json-xformer as dictated by the transofrmation descriptors on the source element, and the value returned by the custom formatter will be assigned to the target object.
+The custom formatter will be invoked by the json-xformer as dictated by the transformation descriptors on the source element, and the value returned by the custom formatter will be assigned to the target object.
 
 ### Map Json To Json
 
