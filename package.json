@@ -1,6 +1,6 @@
 {
   "name": "json-xformer",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A node module for transforming json to json objects",
   "main": "./lib/index.js",
   "scripts": {
