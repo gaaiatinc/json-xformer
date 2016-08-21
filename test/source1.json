@@ -1,0 +1,9 @@
+{
+    "name": "tester",
+    "lastName": "one",
+    "jobLocations": [
+        "site 1",
+        "site 2",
+        "site 3"
+    ]
+}

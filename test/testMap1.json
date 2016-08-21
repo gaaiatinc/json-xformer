@@ -1,0 +1,18 @@
+{
+    "sourceLocale": "en-US",
+    "targetLocale": "en-US",
+
+    "transformMap": [{
+        "sourcePtr": "/name",
+        "targetPtr": "/target/name",
+        "customFormatter": "formatName"
+    }, {
+        "sourcePtr": "/age",
+        "targetPtr": "/target/age",
+        "customFormatter": "formatAge",
+        "defaultValue": "23"
+    }, {
+        "sourcePtr": "/jobLocations/1",
+        "targetPtr": "/jobSiteOne/-"
+    }]
+}
