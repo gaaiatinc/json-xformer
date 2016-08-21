@@ -1,6 +1,6 @@
 {
   "name": "json-xformer",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A node module for transforming json to json objects",
   "main": "./lib/index.js",
   "scripts": {
@@ -16,7 +16,7 @@
   "engines": {
     "node": ">=4.0.0"
   },
-  "license": "Apache 2.0",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/gaaiatinc/json-xformer"
   },
