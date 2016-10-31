@@ -1,6 +1,6 @@
 {
   "name": "json-xformer",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A node module for transforming json to json objects",
   "main": "./lib/index.js",
   "scripts": {
@@ -26,20 +26,25 @@
     "transform"
   ],
   "devDependencies": {
+    "eslint": "^3.9.0",
+    "eslint-plugin-import": "^2.0.1",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.4.1",
     "grunt": "^1.0.1",
     "grunt-contrib-clean": "^1.0.0",
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-jshint": "^1.0.0",
     "grunt-contrib-nodeunit": "^1.0.0",
-    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-uglify": "^2.0.0",
     "grunt-contrib-watch": "^1.0.0",
-    "mocha": "^2.5.3"
+    "jshint": "^2.9.4",
+    "mocha": "^3.1.2"
   },
   "peerDependencies": {},
   "dependencies": {
-    "ajv": "^4.5.0",
+    "ajv": "^4.8.2",
     "jsonpointer": "^4.0.0",
-    "lodash": "^4.15.0",
+    "lodash": "^4.16.5",
     "q": "^1.4.1"
   },
   "readmeFilename": "README.md"

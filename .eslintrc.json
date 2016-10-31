@@ -48,9 +48,10 @@
             "error",
             "always"
         ],
-        "no-unused-vars": [
-            "off"
-        ],
+        "no-unused-vars": ["error", {
+            "vars": "all",
+            "args": "after-used"
+        }],
         "no-empty": [
             "off"
         ]
